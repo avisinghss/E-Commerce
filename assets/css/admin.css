@@ -23,10 +23,11 @@
 }
 /* Container for assigning reviwer and reviewing */
 .reviewContainer{
+    background-color: white;
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    border: 2px solid darkgreen;
+    border: 2px solid #a70021;
     flex-direction: column;
     width: 40%;
     margin-left: 30%;
@@ -47,15 +48,15 @@
 }
 /* Submit buttons  */
 .submitButtons button{
-    background-color:#FFFF8F;
+    background-color:#a70021;
     width: 10vw;
-    height: 25px;
-    border: 1px solid darkgreen;
+    color: white;
+    border: 1px solid rgb(0, 125, 208);
     border-radius: 20px;
 
 }
 .submitButtons button:hover{
-    background-color:yellow ;
+    background-color:#a70021;
 }
 /* This button is used in assigning admin,  */
 .submitButtons2{
@@ -63,7 +64,8 @@
 }
 
 .btn{
-    background-color: yellow;
+    background-color: #a70021;
+    color: white;
 }
 #addemp{
     background-color: lightyellow;
